@@ -72,8 +72,13 @@ This section has moved here: [https://facebook.github.io/create-react-app/docs/t
 
 ### echo "# MERN-Project" >> README.md
 git init
+
 git add README.md
+
 git commit -m "first commit"
+
 git branch -M main
+
 git remote add origin https://github.com/0904-mansi/MERN-Project.git
+
 git push -u origin main
