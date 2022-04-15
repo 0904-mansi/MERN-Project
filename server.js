@@ -9,7 +9,7 @@ app.get('/', (req, res)=>{
     res.send("Server working" + port);
 })
 
-app.get('/getpizzas', (req, res)=>{
+app.get('/getpizzas', (req, res)=>{ 
     Pizza.find({}, (err, docs)=>{
         if(err){
             console.log(err); 
